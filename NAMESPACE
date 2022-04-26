@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+useDynLib(CTMISD)
+importFrom(Rcpp, sourceCpp)
+importFrom(magrittr,"%>%")
